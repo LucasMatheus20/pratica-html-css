@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+:root{
+    --cor01: #fff;
+    --cor02: #022859;
+    --cor03: #022873;
+
+    --fonte-padrao: "Open Sans";
+
+}
+
+header{
+    font-family: "Open Sans";
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+
+    
+}
+header h1{
+    font-weight: bold;
+    color: white;
+
+   
+}
+nav{
+  padding: 20px;
+  margin-left: 40px;
+
+}
+nav a{
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+}
+nav a:hover{
+    color:goldenrod;
+    transition-duration: .5s;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+main{
+    margin-top: 30px;
+    min-width: 300px;
+    max-width: 300px;
+    height: 400px;
+    padding: 20px;
+
+    border: 1px outset black;
+    border-radius: 20px;
+    margin: 20px auto 20px auto;
+    box-shadow: 2px 2px 4px black;
+    backdrop-filter: blur(2px);
+    
+
+}
+body{
+    background-image: url("imagens/wallpaper.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+main h2{
+    font-family: var(--fonte-padrao);
+    font-weight: bolder;
+    margin: 10px;
+    color: #fff;
+
+}
+main p{
+    text-align: justify;
+    line-height: 1.3em;
+    text-indent: 20px;
+    font-family: var(--fonte-padrao);
+    color: #fff;
+}
+footer{
+    text-align: center;
+    font-family: var(--fonte-padrao);
+    font-weight: bold;
+    margin: 20px;
+    padding: 10px;
+    color: #fff;
+
+}
+footer strong{
+    color: #022873;
+    font-weight: bolder;
+
+}
